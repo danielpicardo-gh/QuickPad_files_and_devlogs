@@ -1,0 +1,2 @@
+e5a4c17b-436b-4662-87ab-754f5d96a49d = API key
+https://hackatime.hackclub.com/api/hackatime/v1 = API URL
