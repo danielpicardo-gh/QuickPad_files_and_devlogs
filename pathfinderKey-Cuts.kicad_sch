@@ -1891,7 +1891,7 @@
 				)
 			)
 		)
-		(property "Footprint" "L08R5000Q1:LEDRD254W57D500H1070"
+		(property "Footprint" "footprints:LEDRD254W57D500H1070"
 			(at 172.72 80.01 0)
 			(effects
 				(font
@@ -2146,7 +2146,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Module:MOUDLE14P-XIAO-DIP-SMD"
+		(property "Footprint" "footprints:XIAO-RP2040-DIP"
 			(at 149.098 141.478 0)
 			(effects
 				(font
@@ -2250,7 +2250,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 119.38 52.07 0)
 			(effects
 				(font
@@ -2347,7 +2347,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "17df9620-1c37-4c2c-8d3c-ea658a7b8ba1")
+			(uuid "17df9620-1c37-4c2c-8d3c-ea658a7b8ba2")
 		)
 		(instances
 			(project ""
@@ -2480,10 +2480,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "b1e53adc-6d1f-4e34-8ad9-1b84cba11571")
+			(uuid "b1e53adc-6d1f-4e34-8ad9-1b84cba11572")
 		)
 		(pin "2"
-			(uuid "f5d75b91-1adb-479e-8fef-5b25ed1bb1d2")
+			(uuid "f5d75b91-1adb-479e-8fef-5b25ed1bb1d3")
 		)
 		(instances
 			(project ""
@@ -2520,7 +2520,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 146.05 52.07 0)
 			(effects
 				(font
@@ -2548,10 +2548,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "9989387b-0645-40bb-9847-dc1004c90b6e")
+			(uuid "9989387b-0645-40bb-9847-dc1004c90b6f")
 		)
 		(pin "2"
-			(uuid "781a6f89-60a5-4dd1-89a3-021c4c51f2d8")
+			(uuid "781a6f89-60a5-4dd1-89a3-021c4c51f2d9")
 		)
 		(instances
 			(project ""
@@ -2617,7 +2617,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "17df9620-1c37-4c2c-8d3c-ea658a7b8ba1")
+			(uuid "17df9620-1c37-4c2c-8d3c-ea658a7b8ba3")
 		)
 		(instances
 			(project ""
@@ -2654,7 +2654,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 172.72 52.07 0)
 			(effects
 				(font
@@ -2682,10 +2682,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "9989387b-0645-40bb-9847-dc1004c90b6e")
+			(uuid "9989387b-0645-40bb-9847-dc1004c90b70")
 		)
 		(pin "2"
-			(uuid "781a6f89-60a5-4dd1-89a3-021c4c51f2d8")
+			(uuid "781a6f89-60a5-4dd1-89a3-021c4c51f2da")
 		)
 		(instances
 			(project ""
@@ -2722,7 +2722,7 @@
 				)
 			)
 		)
-		(property "Footprint" "L08R5000Q1:LEDRD254W57D500H1070"
+		(property "Footprint" "footprints:LEDRD254W57D500H1070"
 			(at 120.65 80.01 0)
 			(effects
 				(font
@@ -2871,10 +2871,10 @@
 			)
 		)
 		(pin "C"
-			(uuid "8a115cac-9d81-4374-87bd-c4591f84684f")
+			(uuid "8a115cac-9d81-4374-87bd-c4591f846850")
 		)
 		(pin "A"
-			(uuid "00bdb99d-53f9-4eaf-a9c3-ddcb4df835dd")
+			(uuid "00bdb99d-53f9-4eaf-a9c3-ddcb4df835de")
 		)
 		(instances
 			(project ""
@@ -2911,7 +2911,7 @@
 				)
 			)
 		)
-		(property "Footprint" "L08R5000Q1:LEDRD254W57D500H1070"
+		(property "Footprint" "footprints:LEDRD254W57D500H1070"
 			(at 146.05 80.01 0)
 			(effects
 				(font
@@ -3060,10 +3060,10 @@
 			)
 		)
 		(pin "C"
-			(uuid "8a115cac-9d81-4374-87bd-c4591f84684f")
+			(uuid "8a115cac-9d81-4374-87bd-c4591f846851")
 		)
 		(pin "A"
-			(uuid "00bdb99d-53f9-4eaf-a9c3-ddcb4df835dd")
+			(uuid "00bdb99d-53f9-4eaf-a9c3-ddcb4df835df")
 		)
 		(instances
 			(project ""
@@ -3130,10 +3130,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "b1e53adc-6d1f-4e34-8ad9-1b84cba11571")
+			(uuid "b1e53adc-6d1f-4e34-8ad9-1b84cba11573")
 		)
 		(pin "2"
-			(uuid "f5d75b91-1adb-479e-8fef-5b25ed1bb1d2")
+			(uuid "f5d75b91-1adb-479e-8fef-5b25ed1bb1d4")
 		)
 		(instances
 			(project ""
@@ -3199,7 +3199,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "17df9620-1c37-4c2c-8d3c-ea658a7b8ba1")
+			(uuid "17df9620-1c37-4c2c-8d3c-ea658a7b8ba4")
 		)
 		(instances
 			(project ""
@@ -3265,7 +3265,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "17df9620-1c37-4c2c-8d3c-ea658a7b8ba1")
+			(uuid "17df9620-1c37-4c2c-8d3c-ea658a7b8ba5")
 		)
 		(instances
 			(project ""
@@ -3331,7 +3331,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "17df9620-1c37-4c2c-8d3c-ea658a7b8ba1")
+			(uuid "17df9620-1c37-4c2c-8d3c-ea658a7b8ba6")
 		)
 		(instances
 			(project ""
