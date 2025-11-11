@@ -1,5 +1,5 @@
 # shortcuts_for_keyboard
-a couple of single-key shortcuts for a keyboard
+a couple of useful shortcuts for a keyboard
 
 ## Pathfinder Session 1 - [40 minutes]
 What I did:
