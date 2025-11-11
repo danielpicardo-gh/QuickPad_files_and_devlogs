@@ -1463,6 +1463,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 88.9) (xy 196.85 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21829287-783c-4587-9cc2-d76d5a2f698f")
+	)
+	(wire
+		(pts
 			(xy 111.76 88.9) (xy 113.03 88.9)
 		)
 		(stroke
@@ -1470,6 +1480,16 @@
 			(type default)
 		)
 		(uuid "2c2a089a-80f6-4e68-a61e-6cbad0692261")
+	)
+	(wire
+		(pts
+			(xy 196.85 88.9) (xy 196.85 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e25ba90-2e63-4f0f-9797-c535625a1b11")
 	)
 	(wire
 		(pts
@@ -1531,6 +1551,28 @@
 		)
 		(uuid "fd816494-e8c4-4f59-baf8-c3dcded227cf")
 	)
+	(global_label "LED4"
+		(shape input)
+		(at 166.37 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0000d01e-a1a5-42c6-bd48-353c01fa9153")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.0118 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "button1"
 		(shape input)
 		(at 130.81 114.3 180)
@@ -1577,7 +1619,7 @@
 	)
 	(global_label "LED3"
 		(shape input)
-		(at 130.81 133.35 180)
+		(at 130.81 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1587,7 +1629,7 @@
 		)
 		(uuid "26ea9f6a-89eb-483c-8d3d-24eff2f43f31")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.1682 133.35 0)
+			(at 123.1682 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1643,7 +1685,7 @@
 	)
 	(global_label "LED2"
 		(shape input)
-		(at 130.81 129.54 180)
+		(at 130.81 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1653,7 +1695,7 @@
 		)
 		(uuid "373b83b1-c361-417a-a0f6-e562378b99b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.1682 129.54 0)
+			(at 123.1682 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1698,6 +1740,28 @@
 		(uuid "4cc1cc1f-9ddb-4a45-9c9f-1a33c18712c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 129.5182 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "button4"
+		(shape input)
+		(at 130.81 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "509b8aa3-5298-41e6-a14b-67a4a39fcfc6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.5679 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1773,9 +1837,53 @@
 			)
 		)
 	)
+	(global_label "button4"
+		(shape input)
+		(at 199.39 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b88a4232-ce3b-4e86-9b1d-30b98ee1d0d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.1479 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED4"
+		(shape input)
+		(at 195.58 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cc33aea5-21db-4e74-b493-65093443dd44")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.9382 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED1"
 		(shape input)
-		(at 130.81 125.73 180)
+		(at 130.81 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1785,7 +1893,7 @@
 		)
 		(uuid "d3147957-b959-4917-b47c-ca17f2902e79")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.1682 125.73 0)
+			(at 123.1682 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2056,6 +2164,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 209.55 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10e8f647-a99e-44e9-bfe3-ff709740ad8d")
+		(property "Reference" "#PWR08"
+			(at 209.55 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.55 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab78cfd3-8e84-4f44-bd8e-fe681f59531a")
+		)
+		(instances
+			(project "pathfinderKey-Cuts"
+				(path "/883f3e4b-8cf5-43e1-9543-89cbd9807772"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 177.8 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2219,6 +2393,195 @@
 			(project ""
 				(path "/883f3e4b-8cf5-43e1-9543-89cbd9807772"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L08R5000Q1:L08R5000Q1")
+		(at 204.47 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "370a0e54-abc0-4617-9694-d3d358edd258")
+		(property "Reference" "D4"
+			(at 203.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L08R5000Q1"
+			(at 203.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:LEDRD254W57D500H1070"
+			(at 204.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "LED Technology"
+			(at 204.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "10.7mm"
+			(at 204.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 204.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 204.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/L08R5000Q1/LED+Technology/view-part/?ref=eda"
+			(at 204.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 204.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "NA"
+			(at 204.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/L08R5000Q1/LED+Technology/view-part/?ref=snap"
+			(at 204.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "L08R5000Q1"
+			(at 204.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "LED, 5MM, ORANGE; LED / Lamp Size: 5mm / T-1 3/4; LED Colour: Orange; Typ Luminous Intensity: 4.3mcd; Viewing Angle: ..."
+			(at 204.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 204.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "LED TECHNOLOGY"
+			(at 204.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "C"
+			(uuid "2a392060-2b07-4dcf-8dc8-64f45a5a511d")
+		)
+		(pin "A"
+			(uuid "cbbc49e4-fc97-438e-b73e-8cdeff08091a")
+		)
+		(instances
+			(project "pathfinderKey-Cuts"
+				(path "/883f3e4b-8cf5-43e1-9543-89cbd9807772"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -2623,6 +2986,72 @@
 			(project ""
 				(path "/883f3e4b-8cf5-43e1-9543-89cbd9807772"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 209.55 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8429506-9a10-4ff3-a434-7e2565e8ff39")
+		(property "Reference" "#PWR09"
+			(at 209.55 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.55 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27b66f56-e9f9-45ae-9a2b-86e23f98b354")
+		)
+		(instances
+			(project "pathfinderKey-Cuts"
+				(path "/883f3e4b-8cf5-43e1-9543-89cbd9807772"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3145,6 +3574,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 204.47 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9a86a08-48f6-4d9c-9bce-76a9bd683c4d")
+		(property "Reference" "SW4"
+			(at 204.47 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 204.47 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 204.47 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 204.47 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "faa11a38-1cdd-438b-9cd7-3d7031f16548")
+		)
+		(pin "2"
+			(uuid "bea928b6-d26c-4c73-8701-7b749b790780")
+		)
+		(instances
+			(project "pathfinderKey-Cuts"
+				(path "/883f3e4b-8cf5-43e1-9543-89cbd9807772"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 177.8 80.01 0)
 		(unit 1)
@@ -3205,6 +3702,76 @@
 			(project ""
 				(path "/883f3e4b-8cf5-43e1-9543-89cbd9807772"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 196.85 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f06a42c7-0af9-4109-a34a-8c1641610f67")
+		(property "Reference" "R4"
+			(at 199.39 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 199.39 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 195.072 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 196.85 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17d2969d-a894-4833-909b-41d74b78dac4")
+		)
+		(pin "2"
+			(uuid "735ecfbb-e1f8-46d7-8a76-992db5b32489")
+		)
+		(instances
+			(project "pathfinderKey-Cuts"
+				(path "/883f3e4b-8cf5-43e1-9543-89cbd9807772"
+					(reference "R4")
 					(unit 1)
 				)
 			)
