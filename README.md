@@ -1,5 +1,5 @@
-# shortcuts_for_keyboard
-a couple of useful shortcuts for a keyboard
+# shortcuts_for_keyboard (macropad)
+a couple of useful shortcuts for a keyboard like copy and paste
 
 ## Pathfinder Session 1 - [40 minutes]
 What I did:
