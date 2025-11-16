@@ -22,4 +22,8 @@ I edited the schematic and PCB editor for my project. I also added 3d models
 <img width="728" height="516" alt="Screenshot 2025-11-12 162247" src="https://github.com/user-attachments/assets/c1593f3f-f11e-4689-bcea-b677cadf8067" />
 <img width="732" height="519" alt="Screenshot 2025-11-12 162212" src="https://github.com/user-attachments/assets/e5a35b44-54eb-48a9-87a8-aaf9e6893e4f" />
 
-
+## Pathfinder Session 5 - [20 minutes]
+What I did:
+I finished editing the PCB 
+<img width="300" height="200" alt="Screenshot 2025-11-16 220749" src="https://github.com/user-attachments/assets/cf2cb87c-1017-48f3-9dd3-95301e6e9431" />
+<img width="300" height="200" alt="Screenshot 2025-11-16 220900" src="https://github.com/user-attachments/assets/f6b00f93-9f3e-47fa-8c7b-a05865c4ddb0" />
