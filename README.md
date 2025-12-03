@@ -28,3 +28,7 @@ I finished editing the PCB
 
 <img width="500" height="400" alt="Screenshot 2025-11-16 220749" src="https://github.com/user-attachments/assets/cf2cb87c-1017-48f3-9dd3-95301e6e9431" />
 <img width="500" height="400" alt="Screenshot 2025-11-16 220900" src="https://github.com/user-attachments/assets/f6b00f93-9f3e-47fa-8c7b-a05865c4ddb0" />
+
+## Pathfinder Session 6 - [30 minutes]
+What I did:
+I got all the files including the code
